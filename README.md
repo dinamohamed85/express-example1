@@ -2,14 +2,14 @@
 ### Express is a routing and middleware web framework (library) in the backend (node js).
 
 Commands :-
-- nmp i express
-- nmp i --save-dev nodemon
+- npm i express
+- npm i --save-dev nodemon
 - package.json 
     - "scripts": {
     "devStart": "nodemon server.js"
     },
 
-- nmp run devstart
+- npm run devstart
 
 - import express library -> express=require('express')
 - create express server -> app=express() function
